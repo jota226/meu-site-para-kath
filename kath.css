@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fce4ec;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#game-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  height: 500px;
+}
+
+#answers-container button {
+  background-color: #e91e63;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;  /* Mais espaço ao redor do texto */
+  font-size: 16px;      /* Tamanho da fonte */
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;       /* Adiciona espaço entre os botões */
+  width: 100%;          /* Faz os botões ocuparem toda a largura disponível */
+  box-sizing: border-box; /* Garante que o padding não ultrapasse a largura total */
+}
+
+#answers-container button:hover {
+  background-color: #c2185b;  /* Muda a cor ao passar o mouse */
+}
+h1 {
+  color: #e91e63;
+}
+
+button {
+  background-color: #e91e63;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c2185b;
+}

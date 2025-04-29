@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 10px;
+}
+
+main{
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+img{
+    height: 25%;  
+}
